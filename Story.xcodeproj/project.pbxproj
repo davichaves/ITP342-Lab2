@@ -14,6 +14,10 @@
 		938F0AFD1A89558100515B6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938F0AFC1A89558100515B6E /* Images.xcassets */; };
 		938F0B001A89558100515B6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938F0AFE1A89558100515B6E /* LaunchScreen.xib */; };
 		938F0B0C1A89558100515B6E /* StoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 938F0B0B1A89558100515B6E /* StoryTests.m */; };
+		938F0B191A8957DE00515B6E /* CreateYourOwnStory.png in Resources */ = {isa = PBXBuildFile; fileRef = 938F0B151A8957DE00515B6E /* CreateYourOwnStory.png */; };
+		938F0B1A1A8957DE00515B6E /* CreateYourOwnStory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 938F0B161A8957DE00515B6E /* CreateYourOwnStory@2x.png */; };
+		938F0B1B1A8957DE00515B6E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 938F0B171A8957DE00515B6E /* Icon.png */; };
+		938F0B1C1A8957DE00515B6E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 938F0B181A8957DE00515B6E /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		938F0B051A89558100515B6E /* StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938F0B0A1A89558100515B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		938F0B0B1A89558100515B6E /* StoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryTests.m; sourceTree = "<group>"; };
+		938F0B151A8957DE00515B6E /* CreateYourOwnStory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateYourOwnStory.png; sourceTree = "<group>"; };
+		938F0B161A8957DE00515B6E /* CreateYourOwnStory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CreateYourOwnStory@2x.png"; sourceTree = "<group>"; };
+		938F0B171A8957DE00515B6E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		938F0B181A8957DE00515B6E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		938F0AEF1A89558100515B6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				938F0B151A8957DE00515B6E /* CreateYourOwnStory.png */,
+				938F0B161A8957DE00515B6E /* CreateYourOwnStory@2x.png */,
+				938F0B171A8957DE00515B6E /* Icon.png */,
+				938F0B181A8957DE00515B6E /* Icon@2x.png */,
 				938F0AF01A89558100515B6E /* Info.plist */,
 				938F0AF11A89558100515B6E /* main.m */,
 			);
@@ -199,7 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938F0B1B1A8957DE00515B6E /* Icon.png in Resources */,
 				938F0AFB1A89558100515B6E /* Main.storyboard in Resources */,
+				938F0B1C1A8957DE00515B6E /* Icon@2x.png in Resources */,
+				938F0B1A1A8957DE00515B6E /* CreateYourOwnStory@2x.png in Resources */,
+				938F0B191A8957DE00515B6E /* CreateYourOwnStory.png in Resources */,
 				938F0B001A89558100515B6E /* LaunchScreen.xib in Resources */,
 				938F0AFD1A89558100515B6E /* Images.xcassets in Resources */,
 			);

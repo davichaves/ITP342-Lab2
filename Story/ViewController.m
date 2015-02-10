@@ -9,14 +9,27 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *More;
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    bool simple;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)simpleOfMore:(id)sender {
+    if (UISegmentedControlSegmentLeft) {
+        simple = true;
+        [_More setHidden:true];
+    }
+    if (UISegmentedControlSegmentRight) {
+        simple = false;
+        [_More setHidden:false];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

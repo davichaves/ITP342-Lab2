@@ -25,10 +25,12 @@
     if (UISegmentedControlSegmentLeft) {
         simple = true;
         [_More setHidden:true];
+        [_More setAlpha:0];
     }
     if (UISegmentedControlSegmentRight) {
         simple = false;
         [_More setHidden:false];
+        [_More setAlpha:1];
     }
 }
 

@@ -52,12 +52,18 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.42578439387129052" green="0.42468734633364003" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="createStory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jma-IS-3Mx"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K0q-DZ-1au">
                                 <rect key="frame" x="150" y="311" width="300" height="200"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="e9k-Rb-N5Y">
                                         <rect key="frame" x="102" y="8" width="192" height="31"/>
+                                        <connections>
+                                            <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="hLk-7x-CAa"/>
+                                        </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLT-7e-FfW">
                                         <rect key="frame" x="26" y="12" width="36" height="21"/>
@@ -73,6 +79,9 @@
                                     </label>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="oiH-bH-Fzd">
                                         <rect key="frame" x="151" y="78" width="94" height="29"/>
+                                        <connections>
+                                            <action selector="stepper:" destination="BYZ-38-t0r" eventType="valueChanged" id="inR-ob-USI"/>
+                                        </connections>
                                     </stepper>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cqp-KR-8zd">
                                         <rect key="frame" x="174" y="137" width="51" height="31"/>
@@ -124,6 +133,9 @@
                     </view>
                     <connections>
                         <outlet property="More" destination="K0q-DZ-1au" id="dC9-8u-hqZ"/>
+                        <outlet property="Name" destination="cMb-S9-YgU" id="6NC-Hm-pLS"/>
+                        <outlet property="slider" destination="IlL-By-706" id="TAi-HG-YJL"/>
+                        <outlet property="sliderLabel" destination="IlL-By-706" id="lyU-dp-vkt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
